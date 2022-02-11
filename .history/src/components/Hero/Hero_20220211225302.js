@@ -14,7 +14,7 @@ const Hero = () => (
       <SectionText>
         the personal profile  ijjfiow j;kwop w  iewhhfk k wdhw fhhf w ojjw fhfni  whfhiwif
       </SectionText>
-      <Button onClick={() => window.location = 'https://google.com'}>Learn More</Button>
+      <Button onClick={() => window.location 'https://google.com'}>Learn More</Button>
     </LeftSection>
   </Section>
 );

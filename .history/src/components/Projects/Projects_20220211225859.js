@@ -11,7 +11,7 @@ const Projects = () => (
       <GridContainer>
         {[0, 1, 2].map((projects) => (
           <div>
-            {projects}
+            
           </div>
         ))}
       </GridContainer>

@@ -9,11 +9,7 @@ const Projects = () => (
     <SectionDivider>
       <SectionTitle>Projects</SectionTitle>
       <GridContainer>
-        {[0, 1, 2].map((projects) => (
-          <div>
-            {projects}
-          </div>
-        ))}
+        {[0, 1, 2].map(()}
       </GridContainer>
     </SectionDivider>
   </Section>
