@@ -30,7 +30,6 @@ const Projects = () => (
             <TitleContent>
               <HeaderThree>{title}</HeaderThree>
             </TitleContent>
-            <CardInfo>{description}</CardInfo>
           </BlogCard>
         ))}
       </GridContainer>

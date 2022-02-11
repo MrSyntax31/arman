@@ -30,7 +30,7 @@ const Projects = () => (
             <TitleContent>
               <HeaderThree>{title}</HeaderThree>
             </TitleContent>
-            <CardInfo>{description}</CardInfo>
+            <CardInfo>{de}</CardInfo>
           </BlogCard>
         ))}
       </GridContainer>

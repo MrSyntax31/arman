@@ -28,9 +28,8 @@ const Projects = () => (
           <BlogCard key={id}>
             <Img src={image} alt={title}/>
             <TitleContent>
-              <HeaderThree>{title}</HeaderThree>
+              <HeaderThree>{project.title}</HeaderThree>
             </TitleContent>
-            <CardInfo>{description}</CardInfo>
           </BlogCard>
         ))}
       </GridContainer>

@@ -17,21 +17,19 @@ const projectsDescription = [{
 {
   title:'Project 4',
   description:'This is a very very long project description.'
-}];
+}]
 
 const Projects = () => (
   <Section nopadding id="projects">
     <SectionDivider/>
       <SectionTitle>Projects</SectionTitle>
       <GridContainer>
-        {projects.map(({ id, image, title, description, tags, source, visit }) => (
-          <BlogCard key={id}>
-            <Img src={image} alt={title}/>
-            <TitleContent>
-              <HeaderThree>{title}</HeaderThree>
-            </TitleContent>
-            <CardInfo>{description}</CardInfo>
-          </BlogCard>
+        {.map((project) => (
+          <div>
+            {project.title}
+            <br />
+            {project.description}
+          </div>
         ))}
       </GridContainer>
   </Section>
