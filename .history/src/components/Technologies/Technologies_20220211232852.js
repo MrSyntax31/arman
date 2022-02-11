@@ -21,26 +21,6 @@ const Technologies = () =>  (
             </ListParagraph>
         </ListContainer>
       </ListItem>
-
-      <ListItem>
-        <DiFirebase size="3rem"/>
-        <ListContainer>
-          <ListTitle>Firebase</ListTitle>
-            <ListParagraph>
-              Firebase is a cloud-hosted, serverless, open-source realtime database and storage platform.
-            </ListParagraph>
-        </ListContainer>
-      </ListItem>
-
-      <ListItem>
-        <DiFirebase size="3rem"/>
-        <ListContainer>
-          <ListTitle>Firebase</ListTitle>
-            <ListParagraph>
-              Firebase is a cloud-hosted, serverless, open-source realtime database and storage platform.
-            </ListParagraph>
-        </ListContainer>
-      </ListItem>
     </List>
   </Section>
 );
