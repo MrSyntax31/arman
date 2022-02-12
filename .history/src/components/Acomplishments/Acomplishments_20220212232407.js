@@ -7,7 +7,6 @@ const data = [
   { number: 20, text: 'Open Source Projects'},
   { number: 10, text: 'Certificates', },
   { number: 3, text: 'Github Followers', },
-  { number: 470, text: 'Github Contributions', },
   { number: 40, text: 'Github Stars', }
 ];
 
@@ -17,7 +16,7 @@ const Acomplishments = () => (
     <Boxes>
       {data.map((card, index)=>(
         <Box key={index}>
-          <BoxNum>{card.number}+</BoxNum>
+          <BoxNum>{card.number}</BoxNum>
           <BoxText>{card.text}</BoxText>
         </Box>
       ))}
