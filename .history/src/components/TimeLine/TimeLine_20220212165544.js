@@ -14,15 +14,15 @@ const Timeline = () => {
   //   return node.scrollTo({ left, behavior: 'smooth' });
   // }
 
-  const handleClick = (e, i) => {
-    e.preventDefault();
+  // const handleClick = (e, i) => {
+  //   e.preventDefault();
 
-    if (carouselRef.current) {
-       const scrollLeft = Math.floor(carouselRef.current.scrollWidth * 0.7 * (i / TimeLineData.length));
+  //   if (carouselRef.current) {
+  //     const scrollLeft = Math.floor(carouselRef.current.scrollWidth * 0.7 * (i / TimeLineData.length));
       
-       scroll(carouselRef.current, scrollLeft);
-    }
-  }
+  //     scroll(carouselRef.current, scrollLeft);
+  //   }
+  // }
 
   // const handleScroll = () => {
   //   if (carouselRef.current) {
@@ -56,7 +56,7 @@ const Timeline = () => {
               index={index}
               id={`carousel_item-${index}`}
               active={activeItem}
-              onClick={(e) => handleClick(e)}
+              onClick={(e) => handle}
               ></CarouselItem>
             </CarouselMobileScrollNode>
           ))}

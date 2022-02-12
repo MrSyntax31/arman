@@ -22,7 +22,7 @@ const Timeline = () => {
       
        scroll(carouselRef.current, scrollLeft);
     }
-  }
+   }
 
   // const handleScroll = () => {
   //   if (carouselRef.current) {

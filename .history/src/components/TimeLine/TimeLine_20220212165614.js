@@ -15,14 +15,14 @@ const Timeline = () => {
   // }
 
   const handleClick = (e, i) => {
-    e.preventDefault();
+     e.preventDefault();
 
-    if (carouselRef.current) {
+     if (carouselRef.current) {
        const scrollLeft = Math.floor(carouselRef.current.scrollWidth * 0.7 * (i / TimeLineData.length));
       
        scroll(carouselRef.current, scrollLeft);
-    }
-  }
+     }
+   }
 
   // const handleScroll = () => {
   //   if (carouselRef.current) {
