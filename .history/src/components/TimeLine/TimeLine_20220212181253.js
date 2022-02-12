@@ -44,8 +44,6 @@ const Timeline = () => {
 
   return (
     <Section id="about">
-      <SectionDivider/>
-      <br />
       <SectionTitle>Timeline</SectionTitle>
       <SectionText>
         ffe fge fheb gweiowe fwo he jfeh jhy ttd da,  usfsi ksf hl hddhdslf jjada  kvnl ljfshf iuf bj
