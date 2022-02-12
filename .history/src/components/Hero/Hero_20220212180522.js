@@ -20,8 +20,9 @@ const Hero = () => (
       <SectionText>
           A front-end developer specializing in building web design solutions with ReactJs, JavaScript, and CSS frameworks like Bootstrap and TailwindCSS.
       </SectionText>
+      <Button onClick={() => window.location = 'https://google.com'}>Learn More</Button>
 
-      <button className="button-49" role="button" style={{marginBottom:'5rem'}} onClick={() => window.location = 'https://google.com'}>Learn More</button>
+      <button className="button-49" role="button">Learn More</button>
 
     </LeftSection>
   </Section>

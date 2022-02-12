@@ -4,25 +4,18 @@ import { Section, SectionText, SectionTitle } from '../../styles/GlobalComponent
 import Button from '../../styles/GlobalComponents/Button';
 import { LeftSection } from './HeroStyles';
 
-
 const Hero = () => (
   <Section row nopadding>
     <LeftSection>
       <SectionTitle main center>
-        <p style={{fontSize:'2rem'}}>Hello there, I am </p>
-
+        Hello there, I am <br/>
         Arllan Del Espiritu Santo <br/>
-
-        <small>
-          A self-taught Digital Designer and web developer.
-        </small>
+        <small></small>
       </SectionTitle> 
       <SectionText>
-          A front-end developer specializing in building web design solutions with ReactJs, JavaScript, and CSS frameworks like Bootstrap and TailwindCSS.
+        the personal profile  ijjfiow j;kwop w  iewhhfk k wdhw fhhf w ojjw fhfni  whfhiwif
       </SectionText>
-
-      <button className="button-49" role="button" style={{marginBottom:'5rem'}} onClick={() => window.location = 'https://google.com'}>Learn More</button>
-
+      <Button onClick={() => window.location = 'https://google.com'}>Learn More</Button>
     </LeftSection>
   </Section>
 );

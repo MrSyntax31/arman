@@ -9,7 +9,7 @@ const Hero = () => (
   <Section row nopadding>
     <LeftSection>
       <SectionTitle main center>
-        <p style={{fontSize:'2rem'}}>Hello there, I am </p>
+        <p className="">Hello there, I am </p>
 
         Arllan Del Espiritu Santo <br/>
 
@@ -20,8 +20,9 @@ const Hero = () => (
       <SectionText>
           A front-end developer specializing in building web design solutions with ReactJs, JavaScript, and CSS frameworks like Bootstrap and TailwindCSS.
       </SectionText>
+      <Button onClick={() => window.location = 'https://google.com'}>Learn More</Button>
 
-      <button className="button-49" role="button" style={{marginBottom:'5rem'}} onClick={() => window.location = 'https://google.com'}>Learn More</button>
+      <button className="button-49" role="button">Button 49</button>
 
     </LeftSection>
   </Section>
