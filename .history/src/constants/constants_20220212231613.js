@@ -43,5 +43,5 @@ export const TimeLineData = [
   { year: 2020, text: 'We pioneered the first online voting system in our university.', },
   { year: 2020, text: 'Achieve the Arctic Code Vault Contributor 2020 GitHub Archive Program.', },
   { year: 2021, text: 'Participated in the Research Colloquium', },
-  { year: 2021, text: 'Freelance web front-end developer at PilaMoko', },
+  { year: 2021, text: 'Freelance web de', },
 ];
