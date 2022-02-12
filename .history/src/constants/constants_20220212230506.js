@@ -40,7 +40,7 @@ export const projects = [
 export const TimeLineData = [
   { year: 2018, text: 'Started my journey', },
   { year: 2019, text: 'Worked as volunteer developer in our organization', },
-  { year: 2020, text: 'We pioneered the first online voting system in our university.', },
-  { year: 2020, text: 'Achieve the Arctic Code Vault Contributor 2020 GitHub Archive Program.', },
-  { year: 2021, text: 'Participated in the Research Colloquium', },
+  { year: 2020, text: 'Pioneered the first online voting system in', },
+  { year: 2020, text: 'Shared my projects with the world', },
+  { year: 2021, text: 'Started my own platform', },
 ];
