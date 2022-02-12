@@ -15,10 +15,9 @@ const About = () => {
       <SectionTitle>About Me</SectionTitle>
       <div className="hidden lg:block relative w-full md:w-1/2 -mr-40 mt-20">
         <div className="w-3/4 ">
-          <img src="https://firebasestorage.googleapis.com/v0/b/conquerror-development.appspot.com/o/arman.jpg?alt=media&token=581988eb-b443-4009-9109-e2b4b6a6ad5c" alt="avatar" className=" shadow" style={{width:'100%', maxWidth:'400px', height:'auto'}} />
+          <img src="https://scontent.fmnl13-1.fna.fbcdn.net/v/t39.30808-6/262820523_2769605173339792_8414088407703325209_n.jpg?_nc_cat=102&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeH4iE4eUI7FCgswuZovbhxjBn8XsRhzcfwGfxexGHNx_D-bLJ5CwGUQq8AlDabmpW-aa1Wcg0nStlnvB9e4628I&_nc_ohc=lZcBZOkrH6cAX--elkB&_nc_ht=scontent.fmnl13-1.fna&oh=00_AT8P1dzeWEO5ozleskHcBF0vYhSHoEGW_BOQAq2I-fpILQ&oe=620D142F" alt="avatar" className=" shadow" />
           <div className="flex flex-row justify-between mt-4">
             <div className="flex flex-row space-x-4">
-              <br/>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="16"
@@ -37,8 +36,6 @@ const About = () => {
           </div>
         </div>
       </div>
- 
-    
       <SectionText>
         ffe fge fheb gweiowe fwo he jfeh jhy ttd da,  usfsi ksf hl hddhdslf jjada  kvnl ljfshf iuf bj
       </SectionText>

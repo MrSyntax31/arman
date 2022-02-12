@@ -38,6 +38,29 @@ const About = () => {
         </div>
       </div>
  
+      <div className="my-8 flex flex-row items-center justify-between px-3 font-sen">
+      <div>
+        <p className="text-3xl font-bold text-white">Anurag</p>
+        <p className="mt-1 text-lg font-medium text-gray-300">
+          Frontend Developer, Blogger and a Student
+        </p>
+
+        <p className="mt-4 text-gray-400">
+          Building Web apps, proficient in Frontend. Writing articles <br /> on
+          my blog sometimes.
+        </p>
+      </div>
+
+      <div>
+        <Image
+          src="https://firebasestorage.googleapis.com/v0/b/conquerror-development.appspot.com/o/arman.jpg?alt=media&token=581988eb-b443-4009-9109-e2b4b6a6ad5c"
+          width="112"
+          height="112"
+          className="rounded-full"
+          alt="avatar"
+        />
+      </div>
+    </div>
     
       <SectionText>
         ffe fge fheb gweiowe fwo he jfeh jhy ttd da,  usfsi ksf hl hddhdslf jjada  kvnl ljfshf iuf bj

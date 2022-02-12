@@ -37,8 +37,7 @@ const About = () => {
           </div>
         </div>
       </div>
- 
-    
+
       <SectionText>
         ffe fge fheb gweiowe fwo he jfeh jhy ttd da,  usfsi ksf hl hddhdslf jjada  kvnl ljfshf iuf bj
       </SectionText>

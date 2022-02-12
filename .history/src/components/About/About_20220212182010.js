@@ -15,10 +15,9 @@ const About = () => {
       <SectionTitle>About Me</SectionTitle>
       <div className="hidden lg:block relative w-full md:w-1/2 -mr-40 mt-20">
         <div className="w-3/4 ">
-          <img src="https://firebasestorage.googleapis.com/v0/b/conquerror-development.appspot.com/o/arman.jpg?alt=media&token=581988eb-b443-4009-9109-e2b4b6a6ad5c" alt="avatar" className=" shadow" style={{width:'100%', maxWidth:'400px', height:'auto'}} />
+          <img src={https://github.com/account} alt="avatar" className=" shadow" />
           <div className="flex flex-row justify-between mt-4">
             <div className="flex flex-row space-x-4">
-              <br/>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="16"
@@ -37,8 +36,6 @@ const About = () => {
           </div>
         </div>
       </div>
- 
-    
       <SectionText>
         ffe fge fheb gweiowe fwo he jfeh jhy ttd da,  usfsi ksf hl hddhdslf jjada  kvnl ljfshf iuf bj
       </SectionText>
