@@ -15,89 +15,84 @@ const Technologies = () =>  (
       <ListItem>
         <img src="https://www.svgrepo.com/show/355190/reactjs.svg" className="w-25"/>
         <ListContainer>
-          <SectionText>React Js</SectionText>
+          <ListTitle>React Js</ListTitle>
+            <ListParagraph>
+              Firebase is a cloud-hosted, serverless, open-source realtime database and storage platform.
+            </ListParagraph>
         </ListContainer>
       </ListItem>
 
       <ListItem>
         <img src="https://www.svgrepo.com/show/342062/next-js.svg" className="w-25"/>
         <ListContainer>
-          <SectionText>Next Js</SectionText>
+          <ListTitle>Next Js</ListTitle>
         </ListContainer>
       </ListItem>
 
       <ListItem>
         <img src="https://www.svgrepo.com/show/373595/firebase.svg" className="w-25"/>
         <ListContainer>
-          <SectionText>Firebase</SectionText>
+          <ListTitle>Firebase</ListTitle>
         </ListContainer>
       </ListItem>
 
       <ListItem>
-        <img src="https://www.svgrepo.com/show/303206/javascript-logo.svg" className="w-25"/>
+        <img src="https://www.svgrepo.com/show/303206/javascript-logo.svg" class="w-25"/>
         <ListContainer>
-          <SectionText>JavaScript</SectionText>
+          <ListTitle>JavaScript</ListTitle>
         </ListContainer>
       </ListItem>
 
       <ListItem>
-        <img src="https://www.svgrepo.com/show/349474/php.svg" className="w-25"/>
+        <img src="https://www.svgrepo.com/show/349474/php.svg" class="w-25"/>
         <ListContainer>
-          <SectionText>PHP</SectionText>
+          <ListTitle>PHP</ListTitle>
         </ListContainer>
       </ListItem>
 
       <ListItem>
-        <img src="https://www.svgrepo.com/show/354431/tailwindcss-icon.svg" className="w-25"/>
+        <img src="https://www.svgrepo.com/show/354431/tailwindcss-icon.svg" class="w-25"/>
         <ListContainer>
-          <SectionText>Tailwind CSS</SectionText>
+          <ListTitle>Tailwind CSS</ListTitle>
         </ListContainer>
       </ListItem>
 
       <ListItem>
-        <img src="https://www.svgrepo.com/show/353498/bootstrap.svg" className="w-25"/>
+        <img src="https://www.svgrepo.com/show/353498/bootstrap.svg" class="w-25"/>
         <ListContainer>
-          <SectionText>Bootstrap</SectionText>
+          <ListTitle>Bootstrap</ListTitle>
         </ListContainer>
       </ListItem>
 
       <ListItem>
-        <img src="https://www.svgrepo.com/show/354987/figma.svg" className="w-25"/>
+        <img src="https://www.svgrepo.com/show/354987/figma.svg" class="w-25"/>
         <ListContainer>
-          <SectionText>Figma</SectionText>
+          <ListTitle>Figma</ListTitle>
         </ListContainer>
       </ListItem>
 
       <ListItem>
-        <img src="https://developers.adalo.com/img/adalo-logo-black.png" className="w-50"/>
+        <img src="https://developers.adalo.com/img/adalo-logo-black.png" class="w-50"/>
         <ListContainer>
-          <SectionText>Adalo</SectionText>
+          <ListTitle>Adalo</ListTitle>
         </ListContainer>
       </ListItem>
 
       <ListItem>
-        <img src="https://www.svgrepo.com/show/376339/netlify.svg" className="w-25"/>
+        <img src="https://www.svgrepo.com/show/376339/netlify.svg" class="w-25"/>
         <ListContainer>
-          <SectionText>Netlify</SectionText>
+          <ListTitle>Netlify</ListTitle>
         </ListContainer>
       </ListItem>
 
       <ListItem>
-      <img src="https://www.svgrepo.com/show/303229/microsoft-sql-server-logo.svg" className="w-25"/>
+      <img src="https://www.svgrepo.com/show/303229/microsoft-sql-server-logo.svg" class="w-25"/>
         <ListContainer>
-          <SectionText>SQL Server</SectionText> 
-        </ListContainer>
-      </ListItem>
-
-      <ListItem>
-      <img src="https://www.svgrepo.com/show/373623/git.svg" className="w-25"/>
-        <ListContainer>
-          <SectionText>Git</SectionText> 
+          <ListTitle>SQL Server</ListTitle> 
         </ListContainer>
       </ListItem>
 
     </List>
-    <br />
   </Section>
 );
 

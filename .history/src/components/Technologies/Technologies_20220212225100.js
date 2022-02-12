@@ -83,21 +83,20 @@ const Technologies = () =>  (
       </ListItem>
 
       <ListItem>
-      <img src="https://www.svgrepo.com/show/303229/microsoft-sql-server-logo.svg" className="w-25"/>
+      <img src="https://www.svgrepo.com/show/303229/microsoft-sql-server-logo.svg" class="w-25"/>
         <ListContainer>
           <SectionText>SQL Server</SectionText> 
         </ListContainer>
       </ListItem>
 
       <ListItem>
-      <img src="https://www.svgrepo.com/show/373623/git.svg" className="w-25"/>
+      <img src="https://www.svgrepo.com/show/373623/git.svg" class="w-25"/>
         <ListContainer>
           <SectionText>Git</SectionText> 
         </ListContainer>
       </ListItem>
 
     </List>
-    <br />
   </Section>
 );
 

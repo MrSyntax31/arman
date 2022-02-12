@@ -48,56 +48,55 @@ const Technologies = () =>  (
       </ListItem>
 
       <ListItem>
-        <img src="https://www.svgrepo.com/show/354431/tailwindcss-icon.svg" className="w-25"/>
+        <img src="https://www.svgrepo.com/show/354431/tailwindcss-icon.svg" class="w-25"/>
         <ListContainer>
           <SectionText>Tailwind CSS</SectionText>
         </ListContainer>
       </ListItem>
 
       <ListItem>
-        <img src="https://www.svgrepo.com/show/353498/bootstrap.svg" className="w-25"/>
+        <img src="https://www.svgrepo.com/show/353498/bootstrap.svg" class="w-25"/>
         <ListContainer>
           <SectionText>Bootstrap</SectionText>
         </ListContainer>
       </ListItem>
 
       <ListItem>
-        <img src="https://www.svgrepo.com/show/354987/figma.svg" className="w-25"/>
+        <img src="https://www.svgrepo.com/show/354987/figma.svg" class="w-25"/>
         <ListContainer>
           <SectionText>Figma</SectionText>
         </ListContainer>
       </ListItem>
 
       <ListItem>
-        <img src="https://developers.adalo.com/img/adalo-logo-black.png" className="w-50"/>
+        <img src="https://developers.adalo.com/img/adalo-logo-black.png" class="w-50"/>
         <ListContainer>
           <SectionText>Adalo</SectionText>
         </ListContainer>
       </ListItem>
 
       <ListItem>
-        <img src="https://www.svgrepo.com/show/376339/netlify.svg" className="w-25"/>
+        <img src="https://www.svgrepo.com/show/376339/netlify.svg" class="w-25"/>
         <ListContainer>
           <SectionText>Netlify</SectionText>
         </ListContainer>
       </ListItem>
 
       <ListItem>
-      <img src="https://www.svgrepo.com/show/303229/microsoft-sql-server-logo.svg" className="w-25"/>
+      <img src="https://www.svgrepo.com/show/303229/microsoft-sql-server-logo.svg" class="w-25"/>
         <ListContainer>
           <SectionText>SQL Server</SectionText> 
         </ListContainer>
       </ListItem>
 
       <ListItem>
-      <img src="https://www.svgrepo.com/show/373623/git.svg" className="w-25"/>
+      <img src="https://www.svgrepo.com/show/373623/git.svg" class="w-25"/>
         <ListContainer>
           <SectionText>Git</SectionText> 
         </ListContainer>
       </ListItem>
 
     </List>
-    <br />
   </Section>
 );
 

@@ -90,14 +90,13 @@ const Technologies = () =>  (
       </ListItem>
 
       <ListItem>
-      <img src="https://www.svgrepo.com/show/373623/git.svg" className="w-25"/>
+      <img src="https://www.svgrepo.com/show/373623/git.svg" class="w-25"/>
         <ListContainer>
           <SectionText>Git</SectionText> 
         </ListContainer>
       </ListItem>
 
     </List>
-    <br />
   </Section>
 );
 

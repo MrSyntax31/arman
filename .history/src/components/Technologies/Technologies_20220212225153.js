@@ -97,7 +97,7 @@ const Technologies = () =>  (
       </ListItem>
 
     </List>
-    <br />
+    </
   </Section>
 );
 
