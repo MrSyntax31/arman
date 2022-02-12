@@ -14,25 +14,9 @@ const Footer = () => {
         </LinkColumn>
         <LinkColumn>
           <LinkTitle>Email</LinkTitle>
-          <LinkItem href="mailto:arllan.delespiritusanto03@gmail.com">arllan.delespiritusanto03@gmail.com</LinkItem>
+          <LinkItem href="mailto:arllan.delespiritusanto03">111-111-111</LinkItem>
         </LinkColumn>
       </LinkList>
-      <SocialIconsContainer>
-        <CompanyContainer>
-          <Slogan>Think before you click</Slogan>
-        </CompanyContainer>
-        <SocialContainer>
-        <SocialIcons href="https://github.com/">
-          <AiFillGithub size="3rem"/>
-        </SocialIcons>
-        <SocialIcons href="https://linkedin.com/">
-          <AiFillLinkedin size="3rem"/>
-        </SocialIcons>
-        <SocialIcons href="https://instagram.com/">
-          <AiFillInstagram size="3rem"/>
-        </SocialIcons>
-        </SocialContainer>
-      </SocialIconsContainer>
     </FooterWrapper>
   );
 };

@@ -19,19 +19,8 @@ const Footer = () => {
       </LinkList>
       <SocialIconsContainer>
         <CompanyContainer>
-          <Slogan>Think before you click</Slogan>
+          <Slogan></Slogan>
         </CompanyContainer>
-        <SocialContainer>
-        <SocialIcons href="https://github.com/">
-          <AiFillGithub size="3rem"/>
-        </SocialIcons>
-        <SocialIcons href="https://linkedin.com/">
-          <AiFillLinkedin size="3rem"/>
-        </SocialIcons>
-        <SocialIcons href="https://instagram.com/">
-          <AiFillInstagram size="3rem"/>
-        </SocialIcons>
-        </SocialContainer>
       </SocialIconsContainer>
     </FooterWrapper>
   );

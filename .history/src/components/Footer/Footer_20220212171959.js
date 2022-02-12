@@ -21,17 +21,6 @@ const Footer = () => {
         <CompanyContainer>
           <Slogan>Think before you click</Slogan>
         </CompanyContainer>
-        <SocialContainer>
-        <SocialIcons href="https://github.com/">
-          <AiFillGithub size="3rem"/>
-        </SocialIcons>
-        <SocialIcons href="https://linkedin.com/">
-          <AiFillLinkedin size="3rem"/>
-        </SocialIcons>
-        <SocialIcons href="https://instagram.com/">
-          <AiFillInstagram size="3rem"/>
-        </SocialIcons>
-        </SocialContainer>
       </SocialIconsContainer>
     </FooterWrapper>
   );
