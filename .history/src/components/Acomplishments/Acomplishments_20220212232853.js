@@ -11,14 +11,6 @@ const data = [
   { number: 40, text: 'Github Stars', }
 ];
 
-const cert = [
-  { image: 'https://www.svgrepo.com/show/303229/microsoft-sql-server-logo.svg', text: 'Open Source Projects'},
-  { number: 10, text: 'Certificates', },
-  { number: 3, text: 'Github Followers', },
-  { number: 470, text: 'Github Contributions', },
-  { number: 40, text: 'Github Stars', }
-];
-
 const Acomplishments = () => (
   <Section>
     <SectionTitle>Personal Accomplishments</SectionTitle>
@@ -30,15 +22,7 @@ const Acomplishments = () => (
         </Box>
       ))}
     </Boxes>
-    
-    <Boxes>
-      {cert.map((card, index)=>(
-        <Box key={index}>
-          <BoxNum>{card.number}+</BoxNum>
-          <BoxText>{card.text}</BoxText>
-        </Box>
-      ))}
-    </Boxes>
+    <Box></Box></Box>
   </Section>
 );
 

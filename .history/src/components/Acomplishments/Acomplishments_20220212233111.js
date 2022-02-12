@@ -12,7 +12,7 @@ const data = [
 ];
 
 const cert = [
-  { image: 'https://www.svgrepo.com/show/303229/microsoft-sql-server-logo.svg', text: 'Open Source Projects'},
+  { image: 20, text: 'Open Source Projects'},
   { number: 10, text: 'Certificates', },
   { number: 3, text: 'Github Followers', },
   { number: 470, text: 'Github Contributions', },
