@@ -15,8 +15,11 @@ const Header = () =>  (
       </Link>
     </Div1>
     <Div2>
-      
       <li>
+        <Link href="#projects">
+          <NavLink>Projects</NavLink>
+        </Link>
+      </li> <li>
         <Link href="#about">
           <NavLink>About</NavLink>
         </Link>
@@ -26,11 +29,7 @@ const Header = () =>  (
           <NavLink>Technologies</NavLink>
         </Link>
       </li>
-     <li>
-        <Link href="#projects">
-          <NavLink>Projects</NavLink>
-        </Link>
-      </li> 
+     
     </Div2>
     <Div3>
         <SocialIcons href="https://github.com/MrSyntax31">
