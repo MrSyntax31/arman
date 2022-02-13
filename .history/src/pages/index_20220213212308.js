@@ -18,6 +18,7 @@ const Home = () => {
 
           <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"></link>
           <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+<div class="elfsight-app-f805585b-4cd9-4005-9de2-2217f26b1d0b"></div>
       </Head>
       <Layout>
        <Section grid>

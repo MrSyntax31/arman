@@ -4,13 +4,15 @@ import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
 import { SocialIcons } from '../Header/HeaderStyles';
 import { CompanyContainer, FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTitle, Slogan, SocialContainer, SocialIconsContainer } from './FooterStyles';
 
-
-
 const Footer = () => {
   return (
     <FooterWrapper>
       <LinkList>
         <LinkColumn>
+        <LinkColumn>
+          <LinkTitle>Visitors Count</LinkTitle>
+          <LinkItem href="mailto:arllan.delespiritusanto03@gmail.com">0</LinkItem>
+        </LinkColumn>
           <LinkTitle>Call</LinkTitle>
           <LinkItem href="tel:0956-528-0371">0956-528-0371</LinkItem>
         </LinkColumn>
@@ -19,10 +21,6 @@ const Footer = () => {
           <LinkItem href="mailto:arllan.delespiritusanto03@gmail.com">arllan.delespiritusanto03@gmail.com</LinkItem>
         </LinkColumn>
       </LinkList>
-        <LinkColumn>
-          <LinkTitle>Visitors Count</LinkTitle>
-          <div className="elfsight-app-f805585b-4cd9-4005-9de2-2217f26b1d0b"></div>
-        </LinkColumn>
       <SocialIconsContainer>
         <CompanyContainer>
           <Slogan>A move that can change your life!</Slogan>
