@@ -10,7 +10,6 @@ import { Section } from '../styles/GlobalComponents';
 
 import Head from 'next/head'
 
-
 const Home = () => {
   return (
     <>

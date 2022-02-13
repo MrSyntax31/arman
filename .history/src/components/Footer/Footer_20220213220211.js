@@ -4,18 +4,6 @@ import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
 import { SocialIcons } from '../Header/HeaderStyles';
 import { CompanyContainer, FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTitle, Slogan, SocialContainer, SocialIconsContainer } from './FooterStyles';
 
-//const countEl = document.getElementById('count');
-
-//updateVisitCount();
-
-//function updateVisitCount() {
-//	fetch('https://api.countapi.xyz/update/florin-popcom/codepen/?amount=1')
-//	.then(res => res.json())
-//	.then(res => {
-//		countEl.innerHTML = res.value;
-//	})
-//}
-
 
 const Footer = () => {
   return (
@@ -35,7 +23,7 @@ const Footer = () => {
           <div className="elfsight-app-f805585b-4cd9-4005-9de2-2217f26b1d0b"></div>
           
           <p>This page was viewed</p>
-            <h1 id="count">0</h1>
+            < h1 id="count">0</>
           <p>times</p>
 
 

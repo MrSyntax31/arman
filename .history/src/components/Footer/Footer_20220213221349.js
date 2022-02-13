@@ -6,15 +6,15 @@ import { CompanyContainer, FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTi
 
 //const countEl = document.getElementById('count');
 
-//updateVisitCount();
+updateVisitCount();
 
-//function updateVisitCount() {
-//	fetch('https://api.countapi.xyz/update/florin-popcom/codepen/?amount=1')
-//	.then(res => res.json())
-//	.then(res => {
-//		countEl.innerHTML = res.value;
-//	})
-//}
+function updateVisitCount() {
+	fetch('https://api.countapi.xyz/update/florin-popcom/codepen/?amount=1')
+	.then(res => res.json())
+	.then(res => {
+		countEl.innerHTML = res.value;
+	})
+}
 
 
 const Footer = () => {

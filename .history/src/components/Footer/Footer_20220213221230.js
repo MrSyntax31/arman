@@ -4,17 +4,17 @@ import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
 import { SocialIcons } from '../Header/HeaderStyles';
 import { CompanyContainer, FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTitle, Slogan, SocialContainer, SocialIconsContainer } from './FooterStyles';
 
-//const countEl = document.getElementById('count');
+const countEl = h1.getElementById('count');
 
-//updateVisitCount();
+updateVisitCount();
 
-//function updateVisitCount() {
-//	fetch('https://api.countapi.xyz/update/florin-popcom/codepen/?amount=1')
-//	.then(res => res.json())
-//	.then(res => {
-//		countEl.innerHTML = res.value;
-//	})
-//}
+function updateVisitCount() {
+	fetch('https://api.countapi.xyz/update/florin-popcom/codepen/?amount=1')
+	.then(res => res.json())
+	.then(res => {
+		countEl.innerHTML = res.value;
+	})
+}
 
 
 const Footer = () => {

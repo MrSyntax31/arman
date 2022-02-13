@@ -11,10 +11,10 @@ import { CompanyContainer, FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTi
 //function updateVisitCount() {
 //	fetch('https://api.countapi.xyz/update/florin-popcom/codepen/?amount=1')
 //	.then(res => res.json())
-//	.then(res => {
-//		countEl.innerHTML = res.value;
-//	})
-//}
+	.then(res => {
+		countEl.innerHTML = res.value;
+	})
+}
 
 
 const Footer = () => {

@@ -10,6 +10,9 @@ import { Section } from '../styles/GlobalComponents';
 
 import Head from 'next/head'
 
+function websiteVisits(response){
+  document.querySelector('#visits').textContent = response.value;
+}
 
 const Home = () => {
   return (
