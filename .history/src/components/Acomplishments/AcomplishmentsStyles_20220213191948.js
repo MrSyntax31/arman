@@ -135,7 +135,8 @@ export const IconContainer = styled.div`
 
 export const ExternalLinks = styled.a`
 color:#ffffff;
-font-size: 1.1rem;
+font-size: 1rem;
+padding:1rem 1.5rem;
 border-radius: 15px;
 text-decoration: none;
 transition: 0.5s;

@@ -10,7 +10,7 @@ const Header = () =>  (
     <Div1>
       <Link href="/">
         <a style={{display:"flex", alignItems:"center", color: "white", marginBottom : 20}}>
-          <img src="https://firebasestorage.googleapis.com/v0/b/conquerror-development.appspot.com/o/logo.png?alt=media&token=4b4400ef-568b-4a57-88ac-39b776bbbac0" alt="logo" width="30px"/><Span>Arman</Span>
+          <img src="https://firebasestorage.googleapis.com/v0/b/conquerror-development.appspot.com/o/logo.png?alt=media&token=4b4400ef-568b-4a57-88ac-39b776bbbac0" alt="logo" width="20px"/><Span>Arman</Span>
         </a>
       </Link>
     </Div1>
