@@ -50,6 +50,15 @@ export const List = styled.ul`
   }
 `
 
+export const ListContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+
+  @media ${props => props.theme.breakpoints.sm}{
+    display: flex;
+    margin-left: 18px;
+  }
+`
 
 
 export const Boxes = styled.div`
@@ -79,7 +88,7 @@ export const Box = styled.div`
   border-radius: 12px;
   height: 144px;
   padding: 24px;
-  @media ${props => props.theme.breakpoints.sm} {
+  @media ${props => props.theme.breakpoints.lg} {
     height: 210px;
 
   }

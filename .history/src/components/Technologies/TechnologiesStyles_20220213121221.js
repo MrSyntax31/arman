@@ -53,7 +53,7 @@ export const List = styled.ul`
 
 
 export const Boxes = styled.div`
-  width: 100%;
+  width: 50%;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 24px;

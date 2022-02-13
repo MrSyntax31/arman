@@ -29,9 +29,9 @@ const Technologies = () =>  (
                           <img src="https://www.svgrepo.com/show/303206/javascript-logo.svg" className="mx-auto d-block" width='50px'/>
                           <SectionText className="text-center">JavaScript</SectionText>
                       </Box>
-                    </Boxes>
+                    <Boxe
 
-                    <Boxes>
+
                       <Box>
                           <img src="https://www.svgrepo.com/show/349474/php.svg" className="mx-auto d-block" width='50px'/>
                           <SectionText className="text-center">PHP</SectionText>
@@ -48,9 +48,7 @@ const Technologies = () =>  (
                           <img src="https://www.svgrepo.com/show/354987/figma.svg" className="mx-auto d-block" width='50px'/>
                           <SectionText className="text-center">Figma</SectionText>
                       </Box>
-                    </Boxes>
 
-                    <Boxes>
                       <Box>
                             <img src="https://developers.adalo.com/img/adalo-logo-black.png" className="mx-auto d-block" width='160px'/>
                             <SectionText className="text-center">Adalo</SectionText>
@@ -67,9 +65,7 @@ const Technologies = () =>  (
                             <img src="https://www.svgrepo.com/show/353884/html-5.svg" className="mx-auto d-block" width='50px'/>
                             <SectionText className="text-center">HTML</SectionText>   
                       </Box>
-                    </Boxes>
 
-                    <Boxes>
                       <Box>
                             <img src="https://www.svgrepo.com/show/303263/css3-logo.svg" className="mx-auto d-block" width='50px'/>
                             <SectionText className="text-center">CSS</SectionText>

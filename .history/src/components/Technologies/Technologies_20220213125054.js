@@ -67,9 +67,9 @@ const Technologies = () =>  (
                             <img src="https://www.svgrepo.com/show/353884/html-5.svg" className="mx-auto d-block" width='50px'/>
                             <SectionText className="text-center">HTML</SectionText>   
                       </Box>
-                    </Boxes>
+</Boxes>
 
-                    <Boxes>
+<Boxes>
                       <Box>
                             <img src="https://www.svgrepo.com/show/303263/css3-logo.svg" className="mx-auto d-block" width='50px'/>
                             <SectionText className="text-center">CSS</SectionText>
