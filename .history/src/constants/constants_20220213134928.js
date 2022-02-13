@@ -28,10 +28,10 @@ export const projects = [
   },
   {
     title: 'Mabini Box',
-    description: "Mabini Box is a real-time online voting system developed using Node.js and JavaScript. It is a web application that allows users to vote for a candidate and see the results of the vote.",
+    description: "Mabini Box is a real-time onling voting system develope",
     image: 'https://firebasestorage.googleapis.com/v0/b/conquerror-development.appspot.com/o/Arman%2FMabiniBox.jpg?alt=media&token=d1facfa2-2d32-4515-8f0c-fc7e6d2d68e1',
     tags: ['HTML5', 'JavaScript', 'NodeJs', 'TSQL'],
-    source: 'https://github.com/MrSyntax31/VotingSystem/tree/MrSyntax31-patch-1',
+    source: 'https://mabinibox.netlify.app/',
     visit: 'https://mabinibox.netlify.app/',
     id: 3,
   },

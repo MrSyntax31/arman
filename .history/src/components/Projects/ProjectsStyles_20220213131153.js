@@ -97,7 +97,7 @@ border-radius: 15px;
 text-decoration: none;
 transition: 0.5s;
 &:hover{
-  background: #ffffff;
+  background: #48cae4;
 
 }
 `;

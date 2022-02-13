@@ -94,10 +94,10 @@ font-size: 1.6rem;
 padding:1rem 1.5rem;
 background: #0077b6;
 border-radius: 15px;
-text-decoration: none;
+text
 transition: 0.5s;
 &:hover{
-  background: #ffffff;
+  background: #48cae4;
 
 }
 `;
