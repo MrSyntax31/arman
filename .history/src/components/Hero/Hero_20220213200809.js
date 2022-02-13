@@ -8,13 +8,15 @@ import { LeftSection } from './HeroStyles';
 const Hero = () => (
   <Section row nopadding>
     <LeftSection>
-        <p style={{fontSize:'2rem'}}>Hello there, I am </p>
-      <SectionTitle main center className="NameTitle">
+      <SectionTitle main center>
+        <h1 style={{fontSize:'2rem'}}>Hello there, I am </h1>
+
         Arllan Rabe Del Espiritu Santo <br/>
-      </SectionTitle> 
-        <h1>
+
+        <small>
           A self-taught Digital Designer and web developer.
-        </h1>
+        </small>
+      </SectionTitle> 
       <SectionText>
           A front-end developer specializing in building web design solutions with ReactJs, JavaScript, and CSS frameworks like Bootstrap and TailwindCSS.
       </SectionText>

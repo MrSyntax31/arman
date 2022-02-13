@@ -11,10 +11,11 @@ const Hero = () => (
         <p style={{fontSize:'2rem'}}>Hello there, I am </p>
       <SectionTitle main center className="NameTitle">
         Arllan Rabe Del Espiritu Santo <br/>
+
       </SectionTitle> 
-        <h1>
+        <small>
           A self-taught Digital Designer and web developer.
-        </h1>
+        </small>
       <SectionText>
           A front-end developer specializing in building web design solutions with ReactJs, JavaScript, and CSS frameworks like Bootstrap and TailwindCSS.
       </SectionText>
