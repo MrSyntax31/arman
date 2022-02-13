@@ -25,7 +25,7 @@ export const Boxes = styled.div`
 export const Box = styled.div`
   background: #212D45;
   border-radius: 12px;
-  height: 164px;
+  height: 144px;
   padding: 24px;
   @media ${props => props.theme.breakpoints.lg} {
     height: 210px;
@@ -132,17 +132,3 @@ export const IconContainer = styled.div`
     justify-content: space-between;
   }
 `
-
-export const ExternalLinks = styled.a`
-color:#ffffff;
-font-size: 1.6rem;
-padding:1rem 1.5rem;
-background: #0077b6;
-border-radius: 15px;
-text-decoration: none;
-transition: 0.5s;
-&:hover{
-  background: #ffffff;
-
-}
-`;
