@@ -1,6 +1,6 @@
 import Theme from '../styles/theme';
 import './HeroStyles.css'
-import './AboutMe.css'
+//import './AboutMe.sass'
 import './Tech.css'
 
 

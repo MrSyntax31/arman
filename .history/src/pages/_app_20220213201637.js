@@ -1,7 +1,6 @@
 import Theme from '../styles/theme';
 import './HeroStyles.css'
-import './AboutMe.css'
-import './Tech.css'
+//import './AboutMe.scss'
 
 
 export default function App({ Component, pageProps }) {
