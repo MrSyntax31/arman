@@ -21,7 +21,7 @@ export const projects = [
     title: 'Spartan Shoe Shop',
     description: "This is a code repository for simple e-commerce website, it is a web application that allows users to buy shoes and pay for them using credit card.",
       image: 'https://firebasestorage.googleapis.com/v0/b/conquerror-development.appspot.com/o/Arman%2FSpartanShoeshop.jpg?alt=media&token=2d557238-113e-4470-a6f1-b2a4e91e474d',
-      tags: ['React', 'Styled-Components'],
+      tags: ['React', 'Style'],
     source: 'https://google.com',
     visit: 'https://spartanshoe.netlify.app/',
     id: 2,
