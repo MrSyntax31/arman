@@ -17,6 +17,8 @@ const cert = [
   { source: 'https://drive.google.com/file/d/1gkhasodhSd6jiWIUoahwGf9-90P4jwYK/view?usp=sharing', text: 'Mechatronics Servicing NCII TESDA ', },
   { source: 'https://drive.google.com/file/d/1-30Co3fhoQ9BZ_LVGOHiSfR1EctWuhYa/view?usp=sharing', text: '2nd Research Colloquium', },
   { source: 'https://drive.google.com/file/d/1_FHfygVJhMu3_or92RZP7YZrImz0v3Tz/view?usp=sharing', text: '17th Y4IT Congress', },
+
+  { source: 'https://drive.google.com/file/d/1iJaKugytlFMFgF6WUfG9IhtvfwVOhtSv/view?usp=sharing', text: '1st Online Tutorial Program on IT', },
 ];
 
 const docu  = [
@@ -26,14 +28,7 @@ const docu  = [
   { source: 'https://drive.google.com/file/d/1Yu3aA9VSMhowfZCrpMi3B9ZvgXLrYLj9/view?usp=sharing', text: 'Transitioning from Industry 4.0 to 5.0 Automation', },
 ];
 
-const docs = [
-  { source: 'https://drive.google.com/file/d/1CJNZn27A4DnJcHA28bax34RDsGg5PmLZ/view?usp=sharing', text: 'Fundamentals of Python Programming', },
-  { source: 'https://drive.google.com/file/d/1IUeuq7GxxqxS7IqzwF-hT5HYhs_Z5_Fh/view?usp=sharing', text: 'Google Cloud Platform Foundations', },
-  { source: 'https://drive.google.com/file/d/1Wt5GsYm67CqnNK91lU0bDvPXHm31jBg5/view?usp=sharing', text: 'Introduction to Kubernetes', },
-  { source: 'https://drive.google.com/file/d/1YNHnd-vJBp3hqLmIkUCdZ5vEaWrwqOfT/view?usp=sharing', text: 'We Code As One, We Learn As One, iBITS Online Tutorial', },
-  
-  { source: 'https://drive.google.com/file/d/1iJaKugytlFMFgF6WUfG9IhtvfwVOhtSv/view?usp=sharing', text: '1st Online Tutorial Program on IT', },
-];
+const
 
 const Acomplishments = () => (
   <Section>
@@ -53,7 +48,7 @@ const Acomplishments = () => (
         <Box key={index}>
           <BoxText>{card.text}</BoxText>
           <BoxNum>
-            <ExternalLinks href={card.source}>View Certificate<AiIcons.AiOutlineArrowRight size="1.5rem"/></ExternalLinks>
+            <ExternalLinks href={card.source}>View</ExternalLinks>
           </BoxNum>
         </Box>
       ))}
@@ -64,18 +59,7 @@ const Acomplishments = () => (
         <Box key={index}>
           <BoxText>{card.text}</BoxText>
           <BoxNum>
-            <ExternalLinks href={card.source}>View Certificate<AiIcons.AiOutlineArrowRight size="1.5rem"/></ExternalLinks>
-          </BoxNum>
-        </Box>
-      ))}
-    </Boxes>
-
-    <Boxes>
-      {docs.map((card, index)=>(
-        <Box key={index}>
-          <BoxText>{card.text}</BoxText>
-          <BoxNum>
-            <ExternalLinks href={card.source}>View Certificate<AiIcons.AiOutlineArrowRight size="1.5rem"/></ExternalLinks>
+            <ExternalLinks href={card.source}>View</ExternalLinks>
           </BoxNum>
         </Box>
       ))}

@@ -53,7 +53,7 @@ const Acomplishments = () => (
         <Box key={index}>
           <BoxText>{card.text}</BoxText>
           <BoxNum>
-            <ExternalLinks href={card.source}>View Certificate<AiIcons.AiOutlineArrowRight size="1.5rem"/></ExternalLinks>
+            <ExternalLinks href={card.source}>View View Certificate<AiIcons.AiOutlineArrowRight size="2rem"/></ExternalLinks>
           </BoxNum>
         </Box>
       ))}
@@ -64,7 +64,7 @@ const Acomplishments = () => (
         <Box key={index}>
           <BoxText>{card.text}</BoxText>
           <BoxNum>
-            <ExternalLinks href={card.source}>View Certificate<AiIcons.AiOutlineArrowRight size="1.5rem"/></ExternalLinks>
+            <ExternalLinks href={card.source}>View</ExternalLinks>
           </BoxNum>
         </Box>
       ))}
@@ -75,7 +75,7 @@ const Acomplishments = () => (
         <Box key={index}>
           <BoxText>{card.text}</BoxText>
           <BoxNum>
-            <ExternalLinks href={card.source}>View Certificate<AiIcons.AiOutlineArrowRight size="1.5rem"/></ExternalLinks>
+            <ExternalLinks href={card.source}>View</ExternalLinks>
           </BoxNum>
         </Box>
       ))}

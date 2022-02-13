@@ -31,8 +31,6 @@ const docs = [
   { source: 'https://drive.google.com/file/d/1IUeuq7GxxqxS7IqzwF-hT5HYhs_Z5_Fh/view?usp=sharing', text: 'Google Cloud Platform Foundations', },
   { source: 'https://drive.google.com/file/d/1Wt5GsYm67CqnNK91lU0bDvPXHm31jBg5/view?usp=sharing', text: 'Introduction to Kubernetes', },
   { source: 'https://drive.google.com/file/d/1YNHnd-vJBp3hqLmIkUCdZ5vEaWrwqOfT/view?usp=sharing', text: 'We Code As One, We Learn As One, iBITS Online Tutorial', },
-  
-  { source: 'https://drive.google.com/file/d/1iJaKugytlFMFgF6WUfG9IhtvfwVOhtSv/view?usp=sharing', text: '1st Online Tutorial Program on IT', },
 ];
 
 const Acomplishments = () => (
@@ -53,7 +51,7 @@ const Acomplishments = () => (
         <Box key={index}>
           <BoxText>{card.text}</BoxText>
           <BoxNum>
-            <ExternalLinks href={card.source}>View Certificate<AiIcons.AiOutlineArrowRight size="1.5rem"/></ExternalLinks>
+            <ExternalLinks href={card.source}>View</ExternalLinks>
           </BoxNum>
         </Box>
       ))}
@@ -64,7 +62,7 @@ const Acomplishments = () => (
         <Box key={index}>
           <BoxText>{card.text}</BoxText>
           <BoxNum>
-            <ExternalLinks href={card.source}>View Certificate<AiIcons.AiOutlineArrowRight size="1.5rem"/></ExternalLinks>
+            <ExternalLinks href={card.source}>View</ExternalLinks>
           </BoxNum>
         </Box>
       ))}
@@ -75,7 +73,7 @@ const Acomplishments = () => (
         <Box key={index}>
           <BoxText>{card.text}</BoxText>
           <BoxNum>
-            <ExternalLinks href={card.source}>View Certificate<AiIcons.AiOutlineArrowRight size="1.5rem"/></ExternalLinks>
+            <ExternalLinks href={card.source}>View</ExternalLinks>
           </BoxNum>
         </Box>
       ))}
