@@ -33,9 +33,9 @@ const Footer = () => {
         <LinkColumn>
           <LinkTitle>Visitors Count</LinkTitle>
           <div className="elfsight-app-f805585b-4cd9-4005-9de2-2217f26b1d0b"></div>
-        </LinkColumn>
 
-        <br />
+
+        </LinkColumn>
       <SocialIconsContainer>
         <CompanyContainer>
           <Slogan>A move that can change your life!</Slogan>
