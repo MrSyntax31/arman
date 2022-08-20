@@ -19,7 +19,7 @@ const Hero = () => (
           A front-end developer specializing in building web design solutions with ReactJs, JavaScript, and CSS frameworks like Bootstrap and TailwindCSS.
       </SectionText>
 
-      <button className="button-49" role="button" style={{marginBottom:'5rem'}} onClick={() => window.location = 'https://drive.google.com/file/d/1Xlv5p9YnkgI1vwhJduUrrswRMhRMraPT/view?usp=sharing'}>Resume</button>
+      <button className="button-49" role="button" style={{marginBottom:'5rem'}} onClick={() => window.location = 'https://drive.google.com/file/d/1IwhlXxRKo2Rv2wJsvFm43znNSLUQK0wD/view?usp=sharing'}>Resume</button>
 
     </LeftSection>
   </Section>
