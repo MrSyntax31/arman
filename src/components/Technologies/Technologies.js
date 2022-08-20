@@ -84,6 +84,10 @@ const Technologies = () =>  (
                             <img src="https://www.svgrepo.com/show/373623/git.svg" className="mx-auto d-block" width='50px'/>
                             <SectionText className="text-center">Git</SectionText>
                       </Box>
+                      <Box className="TechStack">
+                            <img src="https://www.svgrepo.com/show/354306/salesforce.svg" className="mx-auto d-block" width='50px'/>
+                            <SectionText className="text-center">SalesForce</SectionText>
+                      </Box>
                     </Boxes>
 
                     <div className="row">
