@@ -42,6 +42,9 @@ const Header = () =>  (
         <SocialIcons href="https://www.instagram.com/theycallme_arman/">
           <AiFillInstagram size="3rem"/>
         </SocialIcons>
+        <SocialIcons href="ngl.link/theycallme_arman">
+          <AiFillFileUnknown size="3rem"/>
+        </SocialIcons>
     </Div3>
   </Container>
 );
