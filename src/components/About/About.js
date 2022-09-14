@@ -22,7 +22,7 @@ const About = () => {
               <div className="hidden lg:block relative w-full md:w-1/2 -mr-40 mt-20">
                 <div className="w-3/4 ">
                   <figure>
-                    <img src="https://firebasestorage.googleapis.com/v0/b/conquerror-development.appspot.com/o/arman.jpg?alt=media&token=581988eb-b443-4009-9109-e2b4b6a6ad5c" alt="avatar" className="mx-auto d-block shadow item" style={{width:'100%', maxWidth:'300px', height:'auto'}} />
+                    <img src="https://firebasestorage.googleapis.com/v0/b/conquerror-development.appspot.com/o/IMG_2939%205R.jpg?alt=media&token=e5e0a7ca-3a56-4088-be24-c947a5ab24e9" alt="Me" className="mx-auto d-block shadow item" style={{width:'100%', maxWidth:'300px', height:'auto'}} />
                   </figure>
                   <div className="flex flex-row justify-between mt-4">
                     <div className="flex flex-row space-x-4">
