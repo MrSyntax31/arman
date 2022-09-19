@@ -35,6 +35,15 @@ export const projects = [
     visit: 'https://mabinibox.netlify.app/',
     id: 3,
   },
+  {
+    title: 'Mabini Box | 2022',
+    description: "Mabini Box is a real-time online voting system developed using Node.js and JavaScript. It is a web application that allows users to vote for a candidate and see the results of the vote.",
+    image: 'https://firebasestorage.googleapis.com/v0/b/conquerror-development.appspot.com/o/Homepage%2FAnnotation%202022-09-19%20185055.png?alt=media&token=069f26fa-a0b2-44cf-87d0-30d4f0085e69',
+    tags: ['HTML5', 'JavaScript', 'NodeJs', 'Next.JS'],
+    source: 'https://github.com/MrSyntax31/CSC-E-Voting-site/tree/main',
+    visit: 'https://mabinibox.vercel.app/',
+    id: 3,
+  },
 ];
 
 export const TimeLineData = [
