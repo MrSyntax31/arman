@@ -53,5 +53,6 @@ export const TimeLineData = [
   { year: 2020, text: 'Achieve the Arctic Code Vault Contributor 2020 GitHub Archive Program.', },
   { year: 2021, text: 'Participated in the Research Colloquium', },
   { year: 2021, text: 'Freelance web front-end developer at PilaMoko', },
+  { year: 2021, text: 'Digital Specialist - Intern at DTWORDS 24/7 PH', },
   { year: 2022, text: 'Jr. Digital Specialist | DTWORDS 24/7 PH', },
 ];
