@@ -60,8 +60,8 @@ const About = () => {
                               
                         I'm currently employed at Datawords 24/7 PH, a multi-cultural and international company, as a <strong className="fst-italic">Junior Digital Specialist</strong> at their Makati City office here in Metro Manila.
                        <br/><br/>
-                        As a JR. Digital Specialist, my duties and responsibilities include integrating updates via a content management system (CMS).It involves investigation of the issues on the websites, activities in the JSONs and scripts, documentation, and reports of bugs, errors, and progress in the tickets. Most of my integrations involve investigations, readings, and localization of different contents in the respective locales of the brands that the company manages.
-                        I'm enjoying my time as a new member of this expanding company, where I manage interns and communicate with clients and project managers all over the world.
+                        As a JR. Digital Specialist, my duties and responsibilities include integrating updates via a content management system (CMS). It involves investigation of the issues on the websites, activities in the JSONs and scripts, documentation, and reports of bugs, errors, and progress in the tickets. Most of my integrations involve investigations, readings, and localization of different contents in the respective locales of the brands that the company manages.
+                        I'm enjoying my time as a new member of this expanding company, where I participate in team projects, communicate with clients and project managers all over the world.
                         <br/><br/>
                         "Software undergoes beta testing shortly before it’s released. Beta is Latin for still doesn’t work." - Unknown
                       </article>
