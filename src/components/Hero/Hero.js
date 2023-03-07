@@ -25,6 +25,5 @@ const Hero = () => (
   </Section>
 );
 
-https://drive.google.com/file/d/17ACckUgDCo6e77gcTo5-ibMozG-yl-qh/view?usp=share_link
 
 export default Hero;
